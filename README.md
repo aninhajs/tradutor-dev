@@ -1,8 +1,8 @@
-# 🌍 Tradutor-dev
+# Tradutor-dev
 
-Um tradutor web moderno e responsivo com interface intuitiva e ícones SVG personalizados.
+Um tradutor web moderno e responsivo com interface intuitiva.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este é um tradutor web que permite aos usuários:
 
@@ -11,16 +11,16 @@ Este é um tradutor web que permite aos usuários:
 - Interface responsiva e moderna
 - Ícones SVG escaláveis e customizáveis
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica
 - **CSS3**: Estilização moderna com Flexbox
 - **SVG**: Ícones vetoriais escaláveis
 - **JavaScript**: Funcionalidade de tradução (em desenvolvimento)
 
-## 🐛 Problema Identificado e Solução
+## Problema Identificado e Solução
 
-### ❌ Problema
+### Problema
 
 Durante o desenvolvimento, foi identificado um problema crítico de layout:
 
@@ -33,11 +33,11 @@ Durante o desenvolvimento, foi identificado um problema crítico de layout:
 - Ausência de controle de overflow
 - Layout não responsivo às mudanças dinâmicas de tamanho
 
-### ✅ Solução Implementada
+### Solução Implementada
 
 Foi aplicada uma solução baseada em **Flexbox** e **controle de dimensões**:
 
-#### 🔧 Mudanças no Container Principal
+#### Mudanças no Container Principal
 
 ```css
 .container {
@@ -51,7 +51,7 @@ Foi aplicada uma solução baseada em **Flexbox** e **controle de dimensões**:
 }
 ```
 
-#### 🔧 Controle do Textarea
+#### Controle do Textarea
 
 ```css
 .caixa-texto {
@@ -63,7 +63,7 @@ Foi aplicada uma solução baseada em **Flexbox** e **controle de dimensões**:
 }
 ```
 
-#### 🔧 Área de Resultado Responsiva
+#### Área de Resultado Responsiva
 
 ```css
 .resultado {
@@ -75,25 +75,15 @@ Foi aplicada uma solução baseada em **Flexbox** e **controle de dimensões**:
 }
 ```
 
-### 🎯 Resultados
+### Resultados
 
-- ✅ Textarea redimensionável com limites seguros
-- ✅ Todo conteúdo permanece dentro do container
-- ✅ Layout responsivo e adaptável
-- ✅ Melhor experiência do usuário
-- ✅ Compatibilidade com diferentes tamanhos de tela
+- Textarea redimensionável com limites seguros
+- Todo conteúdo permanece dentro do container
+- Layout responsivo e adaptável
+- Melhor experiência do usuário
+- Compatibilidade com diferentes tamanhos de tela
 
-## 🎨 Características Visuais
-
-### Ícones SVG Personalizados
-
-- **Ícone de Tradução**: Representa transformação de texto entre idiomas
-- **Ícone de Microfone**: Interface para entrada de voz
-- **Vantagens dos SVG**:
-  - Escalabilidade infinita
-  - Customização via CSS
-  - Performance otimizada
-  - Acessibilidade integrada
+## Características Visuais
 
 ### Design Responsivo
 
@@ -102,7 +92,7 @@ Foi aplicada uma solução baseada em **Flexbox** e **controle de dimensões**:
 - Bordas arredondadas e sombras suaves
 - Layout flexível que se adapta ao conteúdo
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Tradutor-dev/
@@ -112,15 +102,15 @@ Tradutor-dev/
 └── README.md          # Documentação do projeto
 ```
 
-## 🔧 Como Usar
+## Como Usar
 
 1. **Clone ou baixe o projeto**
 2. **Abra o `index.html` em seu navegador**
 3. **Digite o texto** que deseja traduzir no textarea
 4. **Selecione os idiomas** no menu dropdown
-5. **Clique em "Traduzir"** ou use o **ícone do microfone** para entrada de voz
+5. **Clique em "Traduzir"** ou use o microfone para entrada de voz
 
-## 🚀 Funcionalidades Futuras
+## Funcionalidades Futuras
 
 - [ ] Integração com API de tradução
 - [ ] Funcionalidade de reconhecimento de voz
@@ -129,7 +119,7 @@ Tradutor-dev/
 - [ ] Modo claro/escuro
 - [ ] Detecção automática de idioma
 
-## 🤝 Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 
@@ -138,7 +128,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 - Enviar pull requests
 - Melhorar a documentação
 
-## 📱 Compatibilidade
+## Compatibilidade
 
 - ✅ Chrome/Edge (Chromium)
 - ✅ Firefox
@@ -148,6 +138,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 ---
 
-**Desenvolvido com 💻 e ☕**
+Desenvolvido por Ana Julia
 
 _Problema de layout identificado e solucionado em 14 de janeiro de 2026_
