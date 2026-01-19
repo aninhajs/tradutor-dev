@@ -121,15 +121,6 @@ Tradutor-dev/
 - Layout moderno com transparência, bordas arredondadas e sombras
 - Background com imagem de mapa-múndi
 
-## Funcionalidades Futuras
-
-- [ ] Integração com API de tradução
-- [ ] Funcionalidade de reconhecimento de voz
-- [ ] Histórico de traduções
-- [ ] Suporte para mais idiomas
-- [ ] Modo claro/escuro
-- [ ] Detecção automática de idioma
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
