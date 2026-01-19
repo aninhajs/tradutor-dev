@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tradutor-dev</title>
+    <!-- PALAVRA CHAVE 1 AULA; Auto-responsabilidade
+     PALAVRA CHAVE 2 AULA; Redbull 
+     PALAVRA CHAVE 3 AULA; sim-->
+  </head>
+  <body>
+    <!-- Caixa geral -->
+    <div class="container">
+      <!-- Caixa de texto -->
+      <textarea class="caixa-texto" name="" id="caixa-texto"></textarea>
+      <!-- Caixa de controle -->
+      <div class="caixa-controle">
+        <!-- Menu que seleciona as coisas -->
+        <select class="selecione-idioma" name="" id="">
+          <option value="en">Inglês</option>
+          <option value="fr">Francês</option>
+          <option value="es">Espanhol</option>
+          <option value="de">Alemão</option>
+        </select>
+
+        <button onclick="traduzirTexto()">
+          <img
+            src="img/traduzir.svg"
+            alt="Ícone de traduzir"
+            class="icone-traduzir"
+          />
+        </button>
+        <button onclick="ouvirVoz()">
+          <img
+            src="img/microfone.svg"
+            alt="Ícone de limpar"
+            class="icone-limpar"
+          />
+        </button>
+      </div>
+      <div class="resultado" aria-placeholder="Tradução">
+        <h2 class="titulo-traducao">Tradução</h2>
+        <!-- <p class="traducao">A tradução aparecerá aqui.</p> -->
+      </div>
+    </div>
+  </body>
+
+  <script src="scripts.js"></script>
+</html>
