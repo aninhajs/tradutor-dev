@@ -148,7 +148,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 - ✅ Tablets e desktops
 
 ---
-
-Desenvolvido por Ana Julia
-
-_Problema de layout identificado e solucionado em 14 de janeiro de 2026_
