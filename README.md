@@ -110,6 +110,17 @@ Tradutor-dev/
 4. **Selecione os idiomas** no menu dropdown
 5. **Clique em "Traduzir"** ou use o microfone para entrada de voz
 
+## Funcionalidades Atuais
+
+- Tradução de texto entre idiomas usando a API MyMemory
+- Entrada de voz via microfone usando webkitSpeechRecognition
+- Interface responsiva com Flexbox
+- Controle de altura do textarea para melhor usabilidade
+- Botões com ícones SVG para tradução e microfone
+- Suporte para múltiplos idiomas: inglês, francês, espanhol e alemão
+- Layout moderno com transparência, bordas arredondadas e sombras
+- Background com imagem de mapa-múndi
+
 ## Funcionalidades Futuras
 
 - [ ] Integração com API de tradução
